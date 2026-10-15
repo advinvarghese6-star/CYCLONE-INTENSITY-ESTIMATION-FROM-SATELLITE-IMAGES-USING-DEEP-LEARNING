@@ -1,0 +1,32 @@
+# Credentials & Secrets
+credentials.json
+*.pem
+*.key
+.env
+.env.local
+
+# PyTorch Model Checkpoints
+*.pt
+*.pth
+*.onnx
+!baseline_cnn_v3.pt
+!model/baseline_cnn_v3.pt
+
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Temporary data & scratch test images
+temp/
+scratch/
+*.png
+!presets/*.png
+!presets/**/*.png
